@@ -69,7 +69,7 @@ Stay tuned for updates!
 To use the contents of this repository:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/ManoharKonala/BootCamp_2K24.git
 
 
 # Contributing to Python and Data Science Basics Repository
