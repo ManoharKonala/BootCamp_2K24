@@ -41,7 +41,9 @@ This repository serves as a collection of my work and learning progress in Pytho
 
 ## Projects
 ### Zomato Application
-This project is a simulation of the Zomato food delivery app. It was built using Python, SQL, Tkinter, and Python-SQL connectivity. Key features include:
+This project is a simulation of the Zomato food delivery app, which was originally developed as a group project with my teammates. It was built using Python, SQL, Tkinter, and Python-SQL connectivity.
+
+**Key features**:
 - **User Authentication**: Login and registration system
 - **Profile Management**: View and edit user profiles
 - **Restaurant Listings**: Display and search for restaurants
@@ -52,12 +54,24 @@ This project is a simulation of the Zomato food delivery app. It was built using
 - SQL
 - Tkinter
 - Python-SQL connectivity
-
+- 
 **Directory Structure**:
-- `zomato_app/`
-  - `main.py`: Main application file
-  - `db/`: Database scripts and schema
-  - `ui/`: User interface components
+- `zomato_app/` (forked from original group project repository)
+  - `Database/`: Contains all SQL files for the database
+  - `Database_Scheme_and_Data/`
+    - `ER_diagram.jpg`: Entity-Relationship diagram
+    - `zomato_er_diagram.pbix`: Power BI file of the ER diagram
+    - `zomatosqlexcelsheet.xlsx`: Excel sheet with SQL data
+  - `GUI/`
+    - `__pycache__/`
+      - `Main_window.cpython-311.pyc`
+      - `Main_window.cpython-312.pyc`
+    - `main_window.py`: Main GUI window implementation
+    - `user_zomato_authentication.py`: User authentication module
+  - `Images/`
+    - `zomato.jpg`: Zomato logo or application image
+
+For the complete project history and contributions, please refer to the original repository (https://github.com/ManoharKonala/Zomato-Clone-with-Python-Tkinter-and-MySQL).
     
 ### Customer Churn Analysis
 This project analyzes customer churn patterns in a telecommunications company, focusing on various factors that influence customer retention.
@@ -93,7 +107,6 @@ This project analyzes customer churn patterns in a telecommunications company, f
 - `customer_churn_analysis/`
   - `churn_analysis.ipynb`: Jupyter notebook containing the full analysis
   - `WA_Fn-UseC_-Telco-Customer-Churn.csv`: Dataset used for the analysis
-  - `visualizations/`: Directory containing generated plots and charts
 
 This project provides valuable insights into customer behavior and factors affecting churn in the telecommunications industry. The findings can be used to develop targeted retention strategies and improve customer satisfaction.
 
