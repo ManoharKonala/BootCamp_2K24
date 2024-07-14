@@ -8,6 +8,7 @@ Welcome to my repository! This repository contains resources and projects from m
 - [Contents](#contents)
 - [Projects](#projects)
   - [Zomato Application](#zomato-application)
+  - [Customer Churn Analysis](#customer-churn-analysis)
 - [Future Projects](#future-projects)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
@@ -36,6 +37,7 @@ This repository serves as a collection of my work and learning progress in Pytho
 - `matplotlib_tutorials/`: Examples and tutorials for Matplotlib
 - `numpy_tutorials/`: Examples and tutorials for NumPy
 - `pandas_tutorials/`: Examples and tutorials for pandas
+- `Tkinter/`: Examples and tutorials for Tkinter
 
 ## Projects
 ### Zomato Application
@@ -56,6 +58,44 @@ This project is a simulation of the Zomato food delivery app. It was built using
   - `main.py`: Main application file
   - `db/`: Database scripts and schema
   - `ui/`: User interface components
+    
+### Customer Churn Analysis
+This project analyzes customer churn patterns in a telecommunications company, focusing on various factors that influence customer retention.
+
+**Table of Contents**:
+1. Introduction
+2. Data Loading and Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Univariate Analysis
+5. Bivariate Analysis
+6. Multivariate Analysis
+7. Conclusions
+
+**Key Features**:
+- Comprehensive analysis of customer churn factors
+- Visualization of churn patterns using various plots (histograms, bar plots, violin plots, etc.)
+- In-depth examination of relationships between different variables and churn
+
+**Technologies Used**:
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+**Key Findings**:
+- Higher churn rates among customers with Fiber optic internet service and higher monthly charges
+- Senior citizens with lower tenure are more likely to churn
+- Customers on month-to-month contracts have higher churn rates compared to those on longer-term contracts
+- Factors such as online security and backup services influence churn rates
+
+**Directory Structure**:
+- `customer_churn_analysis/`
+  - `churn_analysis.ipynb`: Jupyter notebook containing the full analysis
+  - `WA_Fn-UseC_-Telco-Customer-Churn.csv`: Dataset used for the analysis
+  - `visualizations/`: Directory containing generated plots and charts
+
+This project provides valuable insights into customer behavior and factors affecting churn in the telecommunications industry. The findings can be used to develop targeted retention strategies and improve customer satisfaction.
 
 ## Future Projects
 I plan to add more projects in the future, including but not limited to:
